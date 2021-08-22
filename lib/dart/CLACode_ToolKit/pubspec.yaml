@@ -1,0 +1,5 @@
+name: CLACode_ToolKit
+desc: Official ToolKit for CLA Code.
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"

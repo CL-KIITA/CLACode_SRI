@@ -1,0 +1,5 @@
+name: CLACode_Exper
+desc: Experimentation for formulating of CLA Code.
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
