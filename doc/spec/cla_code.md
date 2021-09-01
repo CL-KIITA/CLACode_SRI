@@ -111,7 +111,7 @@ FCPEG により定義する。正規表現は POSIX である。
 > Author: 佐藤陽花,Ziphil,ѕkytomo  
 > Editor: 佐藤陽花
 
-CLaKIS-CD2021-2 に追加する。
+CLaKIS CC2021-2 に追加する。
 
 共通人工言語情報記述形式は、CLaKIS CC2021-2 を含んだシリアライズデータ形式であり、改行を含まない連記形式と改行を含む標準形式からなる。本文書では連記形式のみ定義する。
 
@@ -152,7 +152,7 @@ CLaKIS-CD2021-2 に追加する。
 
 ## CLA コード改訂版(第 3 版)　手続仕様書
 
-> Class: CLaKIS-CD2021-4  
+> Class: CLaKIS CC2021-4  
 > Suggested Date: 2021/8/17  
 > Published Date: 2021/9/2  
 > Author: 佐藤陽花,Ziphil  
@@ -170,7 +170,7 @@ CLA コード管理者がデータベースに保存蓄積された申請内容�
 
 ## CLA コード改訂版(第 3 版)　ソフトウェアデータ仕様書
 
-> Class: CLaKIS-CD2021-5  
+> Class: CLaKIS CC2021-5  
 > Suggested Date: 2021/8/17  
 > Published Date: 2021/9/-  
 > Author: 佐藤陽花,Ziphil,AI  
