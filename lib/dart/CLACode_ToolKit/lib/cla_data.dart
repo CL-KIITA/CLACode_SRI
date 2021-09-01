@@ -1,5 +1,9 @@
+class CLACode extends LangCode{
+  
+}
+
 //CLAコード第3版
-class CLACode3{
+class CLACode3 extends CLACode {
   CLACode3();
   CLACode3.onlyCode(String code){}
 }
@@ -12,26 +16,41 @@ class CreatorBlock{
 class FamilyBlock{}
 //言語ブロック(with祖語・古語)
 class LanguageBlock{
-  //lang-name
-  Map<String> name;
   //ブロックコード
   String code;
-  //種別
-  String kind;
-  //漢字名
-  String hans;
-  //漢字略語
-  String hanAddr;
-  //英語略語
-  String engAddr;
+  //ブロック種別
+  String? kind;
+  //ブロック情報
+  BasicCLAData? data;
 
 
+
+
+  void addData(BasicCLAData data){
+    this.data = data;
+  }
 }
 //方言ブロック
 class DialectBlock{}
+class LangCode{}
+
+//基本ブロック情報
+class BasicCLAData{
+  //lang-name
+  Map<LangCode,String>? name;
+  //種別
+  String? kind;
+  //漢字名
+  String? hans;
+  //漢字略語
+  String? hanAddr;
+  //英語略語
+  String? engAddr;
+}
+
 
 //CLAコード第2版
-class CLACode2{
+class CLACode2 extends CLACode {
   //領域種別
   String regionKind;
   //言語ブロック
@@ -87,6 +106,13 @@ class CLACode2{
 }
 
 //CLAコード第1版
-class CLACode1{
+class CLACode1 extends CLACode {
   
+}
+
+class ISOCode extends LangCode{
+}
+class ISOCode1 extends ISOCode {
+}
+class ISOCode3 extends ISOCode {
 }
